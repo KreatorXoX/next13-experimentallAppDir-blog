@@ -7,7 +7,7 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <header>
-      <div className="max-w-7xl mx-auto flex flex-row justify-between items-center p-4 text-gray-800">
+      <div className=" flex flex-row justify-between items-center p-4 text-gray-800">
         <Link href={"/"}>
           <Image
             className="rounded-full object-cover bg-slate-300"

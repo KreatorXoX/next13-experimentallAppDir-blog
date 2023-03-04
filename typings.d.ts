@@ -35,6 +35,9 @@ interface Slug {
   _type: "slug";
   current: string;
 }
+interface preFetchSlug {
+  slug: Slug;
+}
 
 interface Block {
   _key: string;
